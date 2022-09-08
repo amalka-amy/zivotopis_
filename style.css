@@ -1,0 +1,76 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(116.82deg, #F3C414 0%, #59ADA2 100%);
+    color:#ffffff;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+header{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+#vizitka{
+    background: rgba(13, 70, 97, 0.25);
+    width:500px;
+    height:700px;
+    padding: 20px;
+
+}
+
+#moje_fotka{
+    width: 420px;
+    height: 275px;
+    overflow:hidden;
+    display:inline-block;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#moje_fotka>img {
+    margin: -75px 0px 0px 0px;
+    width: 420px;
+    height:auto;
+
+}
+
+#uvod{
+    display:block;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    display:inline;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    display:inline;
+}
+p>b{
+    font-weight: 700;
+}
+
+#button{
+    background: rgba(13, 70, 97, 0.2);
+    border-radius: 20px;
+    width:100px;
+    height:30px;
+    color:#ffffff;
+    border:none;
+    box-shadow: 0 3px rgba(13, 70, 97, 0.5);
+}
+
+button:active {
+    color:rgba(13, 70, 97, 0.2);
+    box-shadow: 0 1px rgba(13, 70, 97, 0.3);
+    transform: translateY(4px);
+}
