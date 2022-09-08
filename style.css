@@ -1,4 +1,4 @@
-body{
+#zaklad{
     display: grid;
     justify-content: center;
     align-content: center;
@@ -6,6 +6,20 @@ body{
     color:#ffffff;
     font-family: 'Inter';
     text-align: center;
+    padding-top: 5.65%;
+    padding-bottom: 5.65%;
+}
+
+#vice{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(116.82deg, #FC5966 0%, #72519C 100%);
+    color:#ffffff;
+    font-family: 'Inter';
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 header{
@@ -17,12 +31,16 @@ header{
 #vizitka{
     background: rgba(13, 70, 97, 0.25);
     width:500px;
-    height:700px;
     padding: 20px;
-
 }
 
-#moje_fotka{
+#pribeh{
+    background: rgba(13, 70, 97, 0.25);
+    width:500px;
+    padding: 20px;
+}
+
+#moje_fotka, .fotka{
     width: 420px;
     height: 275px;
     overflow:hidden;
@@ -31,22 +49,46 @@ header{
     margin: 20px 0px 20px 0px;
 }
 
-#moje_fotka>img {
+#moje_fotka>img, .fotka>img {
     margin: -75px 0px 0px 0px;
     width: 420px;
     height:auto;
 
 }
 
+.podcast>img{
+    margin: -20px 0px 0px -5px;
+    width: 440px;
+    height:auto;
+}
+
+.timeboss>img{
+    margin: -20px 0px 0px -15px;
+    width: 450px;
+    height:auto;
+}
+
+.auto>img{
+    margin: 0px 0px 0px -10px;
+    width: auto;
+    height:350px;
+}
+
 #uvod{
     display:block;
 }
 
-h1{
+h2{
     font-size: 30px;
     font-weight: 700;
     line-height: 35px;
     display:inline;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 p{
@@ -54,9 +96,26 @@ p{
     font-weight: 300;
     line-height: 18px;
     display:inline;
+    margin-bottom:10px;
 }
+
 p>b{
     font-weight: 700;
+}
+
+
+
+#LI, #button, #mail{
+    margin-right: 10px;
+}
+
+#LI, #mail{
+    margin-top: 10px;
+}
+
+a{
+    color:#ffffff;
+    text-decoration: none;
 }
 
 #button{
