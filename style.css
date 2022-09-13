@@ -6,8 +6,8 @@
     color:#ffffff;
     font-family: 'Inter';
     text-align: center;
-    padding-top: 5.65%;
-    padding-bottom: 7%;
+    min-height: 100vh;
+    margin:0%;
 }
 
 #vice{
@@ -107,6 +107,9 @@ footer{
     padding:1%;
 }
 
+#LI, #mail{
+    display: inline-block;
+}
 a{
     display: inline-block;
     color:#ffffff;
