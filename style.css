@@ -7,7 +7,7 @@
     font-family: 'Inter';
     text-align: center;
     padding-top: 5.65%;
-    padding-bottom: 5.65%;
+    padding-bottom: 7%;
 }
 
 #vice{
@@ -103,32 +103,32 @@ p>b{
     font-weight: 700;
 }
 
-
-
-#LI, #button, #mail{
-    margin-right: 10px;
-}
-
-#LI, #mail{
-    margin-top: 10px;
+footer{
+    padding:1%;
 }
 
 a{
+    display: inline-block;
     color:#ffffff;
     text-decoration: none;
+    margin:10px;
 }
 
-#button{
+.button{
+    padding: 1% 0px 1% 0px;
+    font-size: 15px;
+    font-weight: 300;
+    display:inline-block;
     background: rgba(13, 70, 97, 0.2);
     border-radius: 20px;
     width:100px;
-    height:30px;
     color:#ffffff;
     border:none;
     box-shadow: 0 3px rgba(13, 70, 97, 0.5);
 }
 
-button:active {
+.button:active {
+    display:inline-block;
     color:rgba(13, 70, 97, 0.2);
     box-shadow: 0 1px rgba(13, 70, 97, 0.3);
     transform: translateY(4px);
